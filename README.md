@@ -41,11 +41,11 @@ The system comes with **two interface options**:
 |--------------------|--------------------------------------|
 | Language           | Python 3.12+                        |
 | Deep Learning      | TensorFlow / Keras                  |
-| Computer Vision    | OpenCV (`cv2`)                       |
+| Computer Vision    | OpenCV                       |
 | Dataset            | MNIST (handwritten digits)          |
 | Desktop UI         | Tkinter               |
 | Numerical Computing| NumPy                               |
-| Model Format       | `.keras` (Keras v3 native format)   |
+| Model Format       | `.keras`    |
 
 ---
 
