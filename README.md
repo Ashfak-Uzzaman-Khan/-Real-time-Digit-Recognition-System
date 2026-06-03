@@ -178,6 +178,3 @@ The CNN model (`digit_cnn_model.keras`) was trained on the **MNIST dataset**   6
 
 ---
 
-<p align="center">
-  If you found this project helpful, please consider giving it a ⭐ on GitHub!
-</p>
