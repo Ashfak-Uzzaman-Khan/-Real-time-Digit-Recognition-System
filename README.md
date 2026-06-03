@@ -157,15 +157,12 @@ python main.py
 
 ## 📸 Screenshots
 
-> _Screenshots will be added soon._
-
-<!-- 
-| Tkinter Desktop App | Streamlit Web App |
-|---|---|
-| ![Tkinter UI]() | ![Streamlit UI]() |
--->
-
----
+| Application UI : Idle State | Real-time Detection : Predicted Digit with Confidence Score | Live Webcam Feed : Bounding Box Around Detected Digit |
+|:---:|:---:|:---:|
+| ![Idle State](<img width="1116" height="835" alt="idle" src="https://github.com/user-attachments/assets/d864e969-6604-4cfc-b13c-44727913156d" />
+) | ![Detection](<img width="1117" height="1012" alt="1" src="https://github.com/user-attachments/assets/a5a9621c-0d3a-4f6d-8756-6a0dacbb469e" />
+) | ![Bounding Box](<img width="1120" height="1020" alt="5" src="https://github.com/user-attachments/assets/3968862b-854c-4ef6-8884-d6aaa212a15c" />
+) |
 
 ## 🔍 Implementation Highlights
 
