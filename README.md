@@ -18,20 +18,20 @@ A real-time digit recognition system that uses a CNN model trained on MNIST and 
 This project is a **real-time handwritten digit recognition system** built using a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset**. It captures live webcam input, applies a series of image preprocessing techniques via **OpenCV**, and predicts the handwritten digit (0–9) along with a confidence score.
 
 The system comes with **two interface options**:
-- 🖥️ **Tkinter Desktop App** — A dark-themed native GUI that shows the live camera feed, detected digit, and confidence score.
+- 🖥️ **Tkinter Desktop App**   A dark-themed native GUI that shows the live camera feed, detected digit, and confidence score.
 
 ---
 
 ## ✨ Features
 
-- 🎥 **Live Webcam Feed** — Captures frames in real-time directly from your webcam
-- 🧠 **CNN-based Digit Classification** — Pre-trained on the MNIST dataset to classify digits 0–9 with high accuracy
-- 🔲 **Bounding Box Detection** — Automatically draws a bounding box around the largest detected digit contour
-- 🧹 **Advanced Image Preprocessing** — Applies Gaussian blur, adaptive thresholding, and morphological operations for clean digit isolation
-- 📊 **Confidence Score Display** — Shows prediction confidence in real-time; uncertain predictions below the threshold are filtered out
-- 🔄 **Prediction Smoothing** — Uses a rolling history buffer (`deque`) to stabilize predictions and reduce flickering
-- ⚡ **FPS Tracking** — Built-in frame rate calculation for performance monitoring
-- 🎛️ **Dual Interface** — Run as a desktop app (Tkinter) or a web app (Streamlit)
+- 🎥 **Live Webcam Feed**   Captures frames in real-time directly from your webcam
+- 🧠 **CNN-based Digit Classification**   Pre-trained on the MNIST dataset to classify digits 0–9 with high accuracy
+- 🔲 **Bounding Box Detection**   Automatically draws a bounding box around the largest detected digit contour
+- 🧹 **Advanced Image Preprocessing**   Applies Gaussian blur, adaptive thresholding, and morphological operations for clean digit isolation
+- 📊 **Confidence Score Display**   Shows prediction confidence in real-time; uncertain predictions below the threshold are filtered out
+- 🔄 **Prediction Smoothing**   Uses a rolling history buffer (`deque`) to stabilize predictions and reduce flickering
+- ⚡ **FPS Tracking**   Built-in frame rate calculation for performance monitoring
+- 🎛️ **Dual Interface**   Run as a desktop app (Tkinter) or a web app (Streamlit)
 
 ---
 
@@ -143,7 +143,7 @@ pip install tensorflow opencv-python pillow numpy streamlit
 
 ## ▶️ Running the Application
 
-### 🖥️ Option 1 — Tkinter Desktop App
+### 🖥️ Option 1   Tkinter Desktop App
 
 ```bash
 python main.py
@@ -174,7 +174,7 @@ The raw webcam frame goes through several OpenCV transformations before being fe
 To avoid flickering predictions frame-to-frame, the system maintains a **rolling buffer** using Python's `deque` (size = 20 frames). Only predictions with confidence **above 60%** are added to this buffer. The final displayed digit is the **most frequent prediction** in the buffer, ensuring visual stability.
 
 ### Model
-The CNN model (`digit_cnn_model.keras`) was trained on the **MNIST dataset** — 60,000 training images of handwritten digits (0–9) at 28×28 pixels. It was saved in Keras's native `.keras` format for efficient loading.
+The CNN model (`digit_cnn_model.keras`) was trained on the **MNIST dataset**   60,000 training images of handwritten digits (0–9) at 28×28 pixels. It was saved in Keras's native `.keras` format for efficient loading.
 
 ---
 
