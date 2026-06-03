@@ -31,7 +31,7 @@ The system comes with **two interface options**:
 - 📊 **Confidence Score Display**   Shows prediction confidence in real-time; uncertain predictions below the threshold are filtered out
 - 🔄 **Prediction Smoothing**   Uses a rolling history buffer (`deque`) to stabilize predictions and reduce flickering
 - ⚡ **FPS Tracking**   Built-in frame rate calculation for performance monitoring
-- 🎛️ **Dual Interface**   Run as a desktop app (Tkinter) or a web app (Streamlit)
+- 🎛️ **User Interface**   Run as a desktop app (Tkinter) app 
 
 ---
 
@@ -41,11 +41,11 @@ The system comes with **two interface options**:
 |--------------------|--------------------------------------|
 | Language           | Python 3.12+                        |
 | Deep Learning      | TensorFlow / Keras                  |
-| Computer Vision    | OpenCV                       |
+| Computer Vision    | OpenCV                              |
 | Dataset            | MNIST (handwritten digits)          |
-| Desktop UI         | Tkinter               |
+| Desktop UI         | Tkinter                             |
 | Numerical Computing| NumPy                               |
-| Model Format       | `.keras`    |
+| Model Format       | `.keras`                            |
 
 ---
 
@@ -136,7 +136,7 @@ source venv/bin/activate
 ### 3️⃣ Install Dependencies
 
 ```bash
-pip install tensorflow opencv-python pillow numpy streamlit
+pip install tensorflow opencv-python pillow numpy 
 ```
 
 ---
