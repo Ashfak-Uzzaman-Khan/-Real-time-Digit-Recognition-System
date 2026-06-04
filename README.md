@@ -1,5 +1,5 @@
 
-<h1 align="center">🔢 Real-time Digit Recognition System</h1>
+<h1 align="center"> Real-time Digit Recognition System</h1>
 
 <p align="center">
  A real-time digit recognition system that uses a CNN model trained on MNIST and uses OpenCV to detect handwritten digits from webcam input. 
@@ -23,14 +23,14 @@ The system comes with **two interface options**:
 
 ## ✨ Features
 
-- 🎥 **Live Webcam Feed**   Captures frames in real-time directly from your webcam
-- 🧠 **CNN-based Digit Classification**   Pre-trained on the MNIST dataset to classify digits 0–9 with high accuracy
-- 🔲 **Bounding Box Detection**   Automatically draws a bounding box around the largest detected digit contour
-- 🧹 **Advanced Image Preprocessing**   Applies Gaussian blur, adaptive thresholding, and morphological operations for clean digit isolation
-- 📊 **Confidence Score Display**   Shows prediction confidence in real-time; uncertain predictions below the threshold are filtered out
-- 🔄 **Prediction Smoothing**   Uses a rolling history buffer (`deque`) to stabilize predictions and reduce flickering
-- ⚡ **FPS Tracking**   Built-in frame rate calculation for performance monitoring
-- 🎛️ **User Interface**   Run as a desktop app (Tkinter) app 
+-  **Live Webcam Feed** :  Captures frames in real-time directly from your webcam
+-  **CNN-based Digit Classification** :  Pre-trained on the MNIST dataset to classify digits 0–9 with high accuracy
+-  **Bounding Box Detection**  : Automatically draws a bounding box around the largest detected digit contour
+-  **Advanced Image Preprocessing** :  Applies Gaussian blur, adaptive thresholding, and morphological operations for clean digit isolation
+-  **Confidence Score Display**  : Shows prediction confidence in real-time; uncertain predictions below the threshold are filtered out
+-  **Prediction Smoothing** :  Uses a rolling history buffer (`deque`) to stabilize predictions and reduce flickering
+-  **FPS Tracking** :  Built-in frame rate calculation for performance monitoring
+-  **User Interface** :  Run as a desktop app (Tkinter) app 
 
 ---
 
@@ -142,7 +142,7 @@ pip install tensorflow opencv-python pillow numpy
 
 ## ▶️ Running the Application
 
-### 🖥️ Option 1   Tkinter Desktop App
+### 🖥️ Tkinter Desktop App
 
 ```bash
 python main.py
